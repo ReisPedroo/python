@@ -1,7 +1,7 @@
-#from datetime import datetime
+from datetime import datetime
 import pyodbc
 
-#hoje = datetime.now()
+hoje = datetime.now()
 dados_conexao = ("driver=;""server=;""user=;""database=;""password=;")
 cnx = pyodbc.connect(dados_conexao)
 cursor = cnx.cursor()
