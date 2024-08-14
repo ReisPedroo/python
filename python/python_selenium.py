@@ -37,5 +37,4 @@ def Navgator():
         finally:
             navegador.quit()
 
-
 Navgator()
