@@ -5,9 +5,9 @@ dados_conexao = ("driver=;""server=;""user=;""database=;""password=;")
 cnx = pyodbc.connect(dados_conexao)
 cursor = cnx.cursor()
 
-wb = load_workbook('C:\\Users\\exemplo\\teste.xlsx')
+wb = load_workbook(r'caminho do arquivo .xlsx')
 
-planilha = wb["p1"]
+planilha = wb["nome da planilha dentro do arquivo"]
 
 
 for i in range (0, planilha.max_row):
